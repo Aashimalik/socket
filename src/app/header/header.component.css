@@ -1,0 +1,220 @@
+.navbar {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    padding: 14px 0px;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu-right {
+    text-align: center;
+    border: none;
+    border-radius: 0px;
+    margin-top: 0;
+  }
+  .hm_bnr_sub input[type='submit'] {
+    background-color: #ff7e18;
+    color: #ffffff;
+    border-radius: 3px;
+    font-weight: 700;
+    padding: 13px 25px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    border: none;
+  }
+  
+  .active-link {
+    color: #ff7e18 !important;
+  }
+  
+  .hm_bnr_form {
+    position: relative;
+    max-width: 717px;
+    margin: auto;
+  }
+  .contact-no {
+    margin-left: 15px;
+    margin-right: 110px;
+  }
+  .navbar-expand-lg .navbar-nav .contact-no .nav-link {
+    color: #ff7e18;
+    cursor: pointer;
+  
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 17px;
+    width: 215px;
+    padding: 2px 0 0 0;
+  }
+  .navbar-expand-lg .navbar-nav .nav-item {
+    position: relative;
+  }
+  .navbar-nav .nav-button {
+    background: #ff7e18;
+    color: #fff !important;
+    padding: 15px 25px !important;
+    box-shadow: 1px 5px 7px #888888;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 20px !important;
+    text-align: center;
+    position: absolute;
+    z-index: 9;
+    top: -18px;
+    right: 0;
+    line-height: 23px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .navbar-nav .nav-button:hover {
+    text-decoration: underline;
+  }
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+  }
+  .carousel-indicators .active {
+    background-color: #ff7e18;
+  }
+  #locationField .form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+  }
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+  /*.navbar-expand-lg .navbar-nav .nav-item{
+    margin-left: 10px;
+  }*/
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: #222222;
+    font-family: helveticalight;
+    font-size: 15px;
+    padding: 13px 18px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: #ff7e18;
+  }
+  .dropdown-item:focus,
+  .dropdown-item:hover {
+    color: #222;
+    background-color: #f1f1f1;
+  }
+  
+  .hm_bnr_form input[type='text'] {
+    width: 100%;
+    height: 66px;
+    outline: none;
+    border-radius: 3px;
+    padding-left: 16px;
+    font-size: 14px;
+    border: none;
+  }
+  .dropdown-item {
+    font-size: 14px;
+  }
+  .hm_bnr_sub {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+  }
+  .home_sale h4 {
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+  
+  #subMenu {
+    width: 100%;
+    background: linear-gradient(to bottom, #d6d6d6 0%, #fefefe 100%);
+    padding: 10px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease-in-out 0.3s;
+  }
+  
+  .sub-menu-fixed {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  .res-menu-btn {
+    display: none;
+  }
+  .dropdown-toggle::after {
+    position: relative;
+    top: 2px;
+  }
+  
+  .responsive-nav-mobile {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .responsive-nav-mobile {
+      display: block;
+      padding: 0;
+      color: #919191;
+    }
+    .responsive-nav-mobile-none {
+      display: none;
+    }
+  
+    .contact-no {
+      margin: 0;
+    }
+  
+    .res-menu-btn {
+      background: none;
+      border: none;
+      display: block;
+    }
+  
+    .navbar-nav .nav-button {
+      width: 92%;
+      margin: auto;
+      top: 0;
+      position: relative;
+    }
+  
+    .navbar-nav .nav-button div {
+      display: inline-block;
+    }
+  
+    div#navbarResponsive {
+      max-height: 0;
+      overflow: hidden;
+      transition: all ease-in-out 0.3s;
+    }
+  
+    .res-menu-nav {
+      max-height: 630px !important;
+    }
+  
+    form.navbar-form.slider-search {
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+  
+    .navbar-brand {
+      padding-left: 8px;
+    }
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .navbar-brand img {
+      width: 160px;
+      padding: 8px 0;
+    }
+  
+    .res-menu-btn img {
+      width: 32px;
+    }
+  }
+  
